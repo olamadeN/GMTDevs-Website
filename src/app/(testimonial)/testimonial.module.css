@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    overflow: hidden;
+}
+  
+  .nameList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nameButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 125%;/**/
+    padding: 15px 40px;
+    border-radius: 0.5rem;
+    border: 1px solid #D2B270;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.719);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .nameButton:hover {
+    /* width: 18rem; */
+    color: #FFFFFF;
+    border-color: #D2B270;
+    padding: 20px 45px;
+    overflow: hidden;
+  }
+  
+  .nameButton span:first-child {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .nameButton .arrow svg {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .active {
+    border-color: #ffd700;
+    color: #FFFFFF;
+  }
+  
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .testimonialBox {
+    background: #1c1c1c;
+    padding: 4% 3%;
+    border-radius: .75rem;
+    width: 48%;
+    height: 231px;
+    overflow-y: hidden;
+    display: flex;
+  }
+   .boxNamePack{
+    padding: 0 20px;
+  /*   border: 1px solid red; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  } 
+  .name {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  .role {
+    font-size: 0.875rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+  }
+  
+  .messageContainer {
+    display: flex;
+    gap: 0.5rem;
+    
+  }
+  
+  .border {
+    width: 0.25rem;
+    background: gray;
+    border-radius: 2px;
+  }
+  
+  .message {
+    font-size: 1rem;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quoteMark {
+    text-align: right;
+    color: #aaa;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+
+  @media (max-width: 479px) {
+    .container {
+      gap: 2rem;
+      margin-top: 25px;
+  }
+    
+    .nameList {
+      gap: 0.5rem;
+    }
+    .nameButton span:first-child {
+      font-size: 10px;
+    }
+    .nameButton .arrow svg {
+      width: 10px;
+      height: 10px;
+    }
+    .nameButton {
+      width: 125%;
+      padding: 10px 10px;
+    } 
+    .nameButton:hover {
+    padding: 10px 30px;
+  }
+    .name {
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .testimonialBox {
+      background: #1c1c1c;
+      padding: 4% 3%;
+      border-radius: .75rem;
+      width: 100%;
+      height: max-content;
+      overflow-y: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }

@@ -1,0 +1,50 @@
+.caseHeader {
+    margin: 50px auto;
+    width: 85%;
+    height: max-content;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+}
+.caseHeader h1{
+    font-weight: 700;
+    font-size: 3.75rem;
+    text-align: center;
+}
+.caseSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 60px;
+}
+.caseCard{
+/*     padding: 10px; */
+    border-radius: 10px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+/* .caseCard:hover{
+    padding: 0px;
+    margin: 15px 0;
+    transition: all ease-in 0.3s ;
+} */
+.caseCard img{
+    width: 100%;
+    border-radius: 10px;
+    height: 337px;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px;
+    overflow: hidden;
+}
+.caseCard img:hover{
+    padding: 0;
+    transition: all ease-in 0.3s ;
+}
+.caseCardTxt{
+    text-align: left;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}

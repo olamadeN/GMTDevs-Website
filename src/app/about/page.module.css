@@ -1,0 +1,188 @@
+.aboutMainTxt{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.aboutHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 51px;
+}
+.aboutHead h1{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+.aboutSubHead{
+    width: 53%;
+    justify-content: center;
+}
+.aboutSubHead p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+
+/*How to get things done*/
+.aboutTitlePack{
+    width: 20%;
+}
+.thingsPackContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 22px;
+    margin-top: 22px;
+}
+.thingsPack{
+    background: #141413;
+    border-radius: .75rem;
+    padding: 30px 16px;
+}
+.thingsPack p:first-child{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin: 20px 0 18px 0;
+}
+.thingsPack p:last-child{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.thingsPack img{
+   width: auto;
+   height: auto;
+}
+
+
+/*Business easier with us*/
+.figuresSection{
+    margin-top: 60px;
+}
+.businessTitlePack{
+    width: 41%;
+}
+.figuresPack{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+/*     border:solid 1px blue; */
+}
+.factsFigures{
+    width: 532px;
+    border-radius: 12px;
+    padding: 20px;
+    background: linear-gradient(117.31deg, #FFFFFF -2.37%, #CC9A33 95.84%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.factsFigures div{
+    width:238px;
+    margin-bottom: 16px;
+}
+.factsSubheading{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #090909;
+}
+.factsFigures .factsText{
+    color: #090909;
+
+}
+.factsStats{
+    width: 532px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.statsPack{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: #141413;
+    gap: 10px;
+    column-gap: 10px;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.statsPack p:first-child{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.statsPack p:last-child{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/*Questions*/
+.questionSection{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 69px;
+    height: 351px;
+    margin-top: 50px;
+}
+.questionTitlePack{
+    /* width: 331px; */
+}
+.questionLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.questionRight{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+}
+
+
+@media (max-width: 479px) {
+    .aboutHead h1{
+        font-size: 24px;
+    }
+    .aboutSubHead{
+        width: 100%;
+        margin-top: -20px;
+    }
+    .aboutSubHead p{
+        font-size: 10px;
+    }
+    .aboutTitlePack{
+        width: 30%;
+    }
+    .thingsPackContainer{
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-top: 22px;
+    }
+    .thingsPack{
+        background: #141413;
+        border-radius: .75rem;
+        padding: 15px 8px;
+    }
+    .thingsPack p:first-child{
+        font-size: 14px;
+        margin: 18px 0 12px 0;
+    }
+    .thingsPack p:last-child{
+        font-size: 10px;
+    }
+}

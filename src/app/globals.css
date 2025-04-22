@@ -1,13 +1,12 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #090909;
+  --foreground: #ffffff;
+}
+::-webkit-scrollbar{
+  width: 0;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -15,11 +14,13 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-
+p{
+  line-height: 110%;
+}
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Belanosima", "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,10 +34,110 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: auto auto;
+}
+.btn{
+  width: 100%;
+  display: flex;
+  font-family: "Montserrat";
+  align-content: center;
+  gap: 3%;
+}
+.btn div{
+  width: 258px;
+  text-align: center;
+  padding:2% 4%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.btn div:first-child{
+  border: solid #D2B270 2px;
+  background: #D2B270;
+  color: #141413;
+}
+.btn div:last-child{
+  border: solid #D2B270 2px;
+  background: #1C1C1C;
+  color: #ffffff;
+}
+.pageHeader {
+  margin: 50px auto;
+  width: 85%;
+  height: max-content;
+  justify-content: center;
+  text-align: center;
+  font-family: Montserrat;
+}
+.pageHeader h1{
+  font-weight: 700;
+  font-size: 3.75rem;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+/* Identity and Values */
+.identitySection{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.aboutTitle{
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.identityTxt{
+  width: 69%;
+}
+.identityTxt div{
+  margin-bottom: 22px;
+}
+.identityTxt h3{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #D2B270;   
+  margin-bottom: 10px; 
+  width: 740px;
+}
+.aboutMainTxt{
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0%;
+}
+
+
+@media (max-width: 479px) {
+  .btn div{
+    font-size: 10px;
+  }
+  .identitySection{
+    margin-top: 50px;
+  }
+  .aboutTitle{
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .identityTxt h3{
+    font-size: 13px; 
+    margin-bottom: 10px; 
+  }
+  .aboutMainTxt{
+    font-size: 10px;
+    line-height: 110%;
   }
 }
