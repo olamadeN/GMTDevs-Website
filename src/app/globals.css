@@ -121,6 +121,12 @@ a {
 }
 
 
+@media (max-width: 768px) {
+  .btn div{
+    font-size: 16.2px;
+    border-radius: 1.5rem;
+  }
+}
 @media (max-width: 479px) {
   .btn div{
     font-size: 10px;

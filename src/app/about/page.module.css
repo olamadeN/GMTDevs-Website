@@ -79,7 +79,7 @@
 /*     border:solid 1px blue; */
 }
 .factsFigures{
-    width: 532px;
+    width: 48%;
     border-radius: 12px;
     padding: 20px;
     background: linear-gradient(117.31deg, #FFFFFF -2.37%, #CC9A33 95.84%);
@@ -88,7 +88,7 @@
     flex-direction: column;
 }
 .factsFigures div{
-    width:238px;
+    width:48%;
     margin-bottom: 16px;
 }
 .factsSubheading{
@@ -102,7 +102,7 @@
 
 }
 .factsStats{
-    width: 532px;
+    width: 48%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -153,6 +153,65 @@
     justify-content: center;
 }
 
+
+@media (max-width: 1024px) {
+    .aboutHead h1{
+        font-size: 50px;
+    }
+    .aboutSubHead{
+        width: 63%;
+    }
+    .aboutSubHead p{
+        font-size: 16px;
+    }
+    .aboutTitlePack{
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutHead h1{
+        font-size: 40px;
+    }
+    .aboutSubHead{
+        width: 70%;
+    }
+    .aboutSubHead p{
+        font-size: 16px;
+    }
+    .aboutTitlePack{
+        width: 50%;
+    }
+    .thingsPackContainer{
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-top: 22px;
+    }
+    .figuresPack{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .factsSubheading{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 33px;
+        color: #090909;
+    }
+
+    .factsFigures{
+        width: 100%;
+    }
+    .factsFigures div{
+        width:100%;
+        margin-bottom: 16px;
+    }
+    .factsStats{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
 
 @media (max-width: 479px) {
     .aboutHead h1{

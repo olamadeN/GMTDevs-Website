@@ -115,11 +115,36 @@
   }
   
 
+  @media (max-width: 1024px) {
+    .nameButton {
+      width: 105%;/**/
+      padding: 10px 35px;
+    }
+    .nameButton span:first-child {
+      font-size: 19px;
+    }
+    .testimonialBox {
+      padding: 3% 1%;
+    }
+    .name {
+      font-size: 23px;
+    }
+    
+    .role {
+      font-size: 9px;
+    }
+    .message {
+      font-size: 11px;
+    }
+    
+    
+  }
+
   @media (max-width: 479px) {
     .container {
       gap: 2rem;
       margin-top: 25px;
-  }
+    }
     
     .nameList {
       gap: 0.5rem;

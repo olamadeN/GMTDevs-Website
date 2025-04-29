@@ -1,25 +1,29 @@
-.navbar{
+.navbar {
     display: flex;
     height: auto;
     width: 80%;
-    margin: auto auto;
+    margin: auto;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    position: relative;
 }
-.logo{
+
+.logo {
     width: 68px;
     height: 72px;
     display: inline-block;
 }
-.navLinks{
+
+.navLinks {
     list-style-type: none;
     display: flex;
     gap: 1%;
-    width: 5500px;
     width: auto;
+    align-items: center;
 }
-.navLinks a{
-    width:125px;
+
+.navLinks a {
+    width: 125px;
     color: #FFFFFF;
     opacity: 40%;
     text-align: center;
@@ -27,11 +31,92 @@
     font-size: 16px;
     font-family: "Montserrat";
 }
-.navLinks a:active{
+
+.navLinks a:hover,
+.navLinks a:active {
     opacity: 100%;
-    transition: 180ms ease-in ;
+    transition: 180ms ease-in;
 }
-.navLinks a:hover{
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    border-radius: 4px;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent a {
+    display: block;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    opacity: 80%;
+}
+
+.dropdownContent a:hover {
     opacity: 100%;
-    transition: 180ms ease-in ;
+}
+
+/* Hamburger menu styling */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navLinks {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #222;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .navLinks.showMenu {
+        display: flex;
+    }
+
+    .navLinks a {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .dropdownContent {
+        position: relative;
+        background-color: transparent;
+    }
+
+    .dropdown:hover .dropdownContent {
+        display: block;
+    }
 }

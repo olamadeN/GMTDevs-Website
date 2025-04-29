@@ -169,6 +169,122 @@
   gap: 3%;
 }
 
+
+@media (max-width: 1024px) {
+  .banner{
+    height: 530px;
+  }
+  .bannerTxt h1{
+    font-size: 3.4375rem;
+  }
+  .bannerTxt p{
+    font-size: .9575rem;
+  }
+  .banner img{
+    width: 450px;
+    height: auto;
+  }
+  .bannerTxt .bannerBtn div{
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner{
+    height: 410px;
+  }
+  .bannerTxt {
+    gap: 20px;
+    justify-content: center;
+  }
+  .bannerTxt h1{
+    font-size: 45px;
+  }
+  .bannerTxt p{
+    font-size: .9575rem;
+  }
+  .banner img{
+    width: 350px;
+    height: auto;
+  }
+  .bannerTxt .bannerBtn div{
+    font-size: 16.2px;
+  }
+
+  /*About Section*/
+  .aboutSection{
+    padding: .9375rem 5%;
+    margin-top: -40px;
+  }
+  .aboutSection div{
+    margin-top: 5px;
+  }
+  .subHeading{
+    font-size: 23px;
+  }
+  .aboutSection div p{
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+ /*design Section*/
+  .designContainerPackInner {
+    padding: 2% 2% 3% 2%;
+  }
+  .packh3{
+    font-size: 19px;
+  }
+  .packp{
+    font-size: 11px;
+    line-height: 15px;
+  }
+ /*development Section*/
+  .devContainerPack img{
+    height: 182px;
+  }
+  .devContainerPackText .packh3{
+    font-size: 19px;
+    margin: 6px 0 6px 0;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .banner{
+    height: 350px;
+  }
+  .bannerTxt h1{
+    font-size: 35px;
+  }
+  .bannerTxt p{
+    font-size: 13px;
+  }
+  .banner img{
+    width: 280px;
+  }
+  .bannerTxt .bannerBtn div{
+    font-size: 12.2px;
+  }
+  /*Our Development Service*/
+  .devContainerPack img{
+    height: 100px;
+    margin-bottom: 5px;
+  }
+  .devContainerPackText .packh3{
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+  }
+  /*Testimonials*/
+  .testimonialSection{
+    margin-top: 60px;
+  }
+  .testimonialPack{
+    display: flex;
+    gap: 3%;
+  }
+}
+
+
 @media (max-width: 479px) {
   .banner{
     height: 330px;
@@ -191,7 +307,7 @@
     gap: 3%;
   }
   .bannerTxt .bannerBtn div{
-    font-size: 12px;
+    font-size: 9px;
   }
 
   /*ABOUT SECTION*/
