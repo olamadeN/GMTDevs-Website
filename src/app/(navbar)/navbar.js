@@ -31,10 +31,10 @@ const Navbar = () => {
                     <Link href="/"><li>Home</li></Link>
                     <Link href="/about"><li>About</li></Link>
                     <li className={nav.dropdown} onClick={toggleServices}>
-                        Services
+                        <span>Services</span> 
                         <div className={`${nav.dropdownContent} ${servicesOpen ? nav.showSubMenu : ''}`}>
-                            <Link href="/services/design"><li>Design Services</li></Link>
-                            <Link href="/services/development"><li>Development Services</li></Link>
+                            <Link href="/service">Design Services</Link>
+                            <Link href="/serviceDev">Development Services</Link>
                         </div>
                     </li>
                     <Link href="/case"><li>Case Studies</li></Link>

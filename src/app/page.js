@@ -37,7 +37,7 @@ export default function Home() {
         >
           <h1>Your Website Is Your Business First Impression</h1>
           <p>
-            Elevate your brand with custom, innovative design solutions that captivate and inspire. Let's bring your vision to life.
+            Elevate your brand with custom, innovative design solutions that captivate and inspire. Let&apos;s bring your vision to life.
           </p>
           <div className={styles.bannerBtn}>
             <div><Link href="/service">Our Services</Link> </div>

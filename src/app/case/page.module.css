@@ -23,11 +23,8 @@
     margin: 15px 0;
     overflow: hidden;
 }
-/* .caseCard:hover{
-    padding: 0px;
-    margin: 15px 0;
-    transition: all ease-in 0.3s ;
-} */
+
+
 .caseCard img{
     width: 100%;
     border-radius: 10px;
@@ -47,4 +44,35 @@
     display: flex;
     flex-direction: column;
     gap:1rem;
+}
+
+
+@media (max-width: 576px) {
+    .caseSection{
+        gap: 8px;
+        margin-top: 60px;
+    }
+    .caseCard img{
+        width: 100%;
+        height: 207px;
+        padding: 5px;
+    }
+    .caseCardTxt{
+        gap: 10px;
+    }
+    .caseCardTxt h2{
+        font-size: 20px;
+    }
+    .caseCardTxt p{
+        font-size: 13.2px;
+    }
+
+}
+
+@media (max-width: 479px) {
+    .caseCard img{
+        width: 100%;
+        height: 150px;
+        padding: 5px;
+    }
 }

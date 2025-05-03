@@ -122,12 +122,54 @@ a {
 
 
 @media (max-width: 768px) {
+  .pageHeader {
+    width: 88%;
+  }
+  .pageHeader h1{
+    font-size: 45px;
+  }
+  .container{
+    width: 88%;
+    margin: auto auto;
+  }
   .btn div{
     font-size: 16.2px;
     border-radius: 1.5rem;
   }
+  .aboutMainTxt{
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 0%;
+  }
+}
+@media (max-width: 576px) {
+  .aboutTitle{
+/*     font-size: 19px;
+    line-height: 120%; */
+    margin-bottom: 20px;
+  }
+  .identitySection{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .identityTxt{
+    width: 100%;
+  }
 }
 @media (max-width: 479px) {
+  .pageHeader {
+    width: 95%;
+  }
+  .pageHeader h1{
+    font-size: 24px;
+  }
+  .container{
+    width: 95%;
+    margin: auto auto;
+  }
   .btn div{
     font-size: 10px;
   }
@@ -135,15 +177,15 @@ a {
     margin-top: 50px;
   }
   .aboutTitle{
-    font-size: 16px;
+    font-size: 19px;
     line-height: 120%;
   }
   .identityTxt h3{
-    font-size: 13px; 
+    font-size: 16px; 
     margin-bottom: 10px; 
   }
   .aboutMainTxt{
-    font-size: 10px;
+    font-size: 13px;
     line-height: 110%;
   }
 }

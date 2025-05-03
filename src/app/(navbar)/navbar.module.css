@@ -41,16 +41,30 @@
 /* Dropdown styling */
 .dropdown {
     position: relative;
+    width: 125px;
+    color: #FFFFFF;
+/*     opacity: 40%; */
+    text-align: center;
+    padding: 2px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    cursor: pointer;
+}
+.dropdown span{
+    opacity: 40%;
 }
 
 .dropdownContent {
+    width: max-content;
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #3333334d;
     top: 100%;
     left: 0;
     z-index: 999;
     border-radius: 4px;
+    padding: 10% 20%;
+
 }
 
 .dropdown:hover .dropdownContent {
@@ -60,14 +74,19 @@
 .dropdownContent a {
     display: block;
     padding: 8px;
-    color: #fff;
+    color: #fff; 
     text-decoration: none;
     text-align: left;
-    opacity: 80%;
+    opacity: 60%;
+    width: 100%;
+    transition: all ease-in 450ms;
 }
 
 .dropdownContent a:hover {
+    color: white; 
     opacity: 100%;
+    padding:15px;
+    font-size: large;
 }
 
 /* Hamburger menu styling */
@@ -81,11 +100,16 @@
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: #ffffffb7;
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
+    .logo {
+        width: 48px;
+        height: 52px;
+        display: inline-block;
+    }
     .hamburger {
         display: flex;
     }
@@ -118,5 +142,12 @@
 
     .dropdown:hover .dropdownContent {
         display: block;
+    }
+}
+@media screen and (max-width: 486px) {
+    .logo {
+        width: 35px;
+        height: 38px;
+        display: inline-block;
     }
 }
