@@ -24,10 +24,11 @@
 
 .navLinks a {
     width: 125px;
-    color: #FFFFFF;
-    opacity: 40%;
+    color: var(--textPrimary);
+    opacity: 60%;
     text-align: center;
     padding: 2px;
+    font-weight: 500;
     font-size: 16px;
     font-family: "Montserrat";
 }
@@ -42,23 +43,24 @@
 .dropdown {
     position: relative;
     width: 128px;
-    color: #FFFFFF;
+    color: var(--textPrimary);
 /*     opacity: 40%; */
     text-align: center;
     padding: 2px;
+    font-weight: 500;
     font-size: 16px;
     font-family: "Montserrat";
     cursor: pointer;
 }
 .dropdown span{
-    opacity: 40%;
+    opacity: 60%;
 }
 
 .dropdownContent {
     width: max-content;
     display: none;
     position: absolute;
-    background-color: #3333334d;
+    background-color: #333333b4;
     top: 100%;
     left: 0;
     z-index: 999;

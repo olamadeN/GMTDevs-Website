@@ -1,7 +1,7 @@
 .footerGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: #E6E6E6;
+    color: var(--textFooter);
     margin-top: 200px;
     margin-bottom: 30px;
     height: 192px;
@@ -12,7 +12,7 @@
 }
 .footerSubHeading{
     font-family: Montserrat;
-    color: #E6E6E6;
+    color: var(--textFooter);
     opacity: 60%;
     font-weight: 500;
     font-size: 12px;
@@ -22,12 +22,14 @@
     margin-bottom: 24px;
 }
 .footerGrid ul{
+    color: var(--textFooter);
     list-style-type: none;
     font-family: Montserrat;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0%;
+    opacity: 89%;
 }
 .callBtn{
     width: max-content;
@@ -35,6 +37,7 @@
     padding: 8px 16px;
     border-radius:.625rem ;
     margin-bottom: 8px;
+    opacity: 90%;
 }
 .copyright{
     display: flex;
@@ -44,7 +47,8 @@
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0%;
-    color: #FFFFFF;
+    color: var(--textPrimary);
+    opacity: 90%;
 }
 
 @media (max-width: 479px) {

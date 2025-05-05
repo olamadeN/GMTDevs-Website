@@ -16,7 +16,7 @@
     height: 460;
     border-radius: 12px;
     padding: 30px;
-    background: #141413;
+    background: var(--bgSecondary);
     font-family: Montserrat;
     margin: 30px auto;
 }

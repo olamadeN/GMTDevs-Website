@@ -70,7 +70,7 @@
 .aboutSection{
   height: max-content;
   padding: 1.25rem 10%;
-  background: #141413;
+  background: var(--bgSecondary);
   border-radius: 12px;
   margin-top: -76;
   z-index: 7777;
@@ -111,9 +111,9 @@
 }
 .designContainerPackInner {
   width: 100%;
-  background: #141413;
+  background: var(--bgSecondary);
   padding: 2% 3% 4% 3%;
-  color: #ffffff;
+  color: var(--textPrimary);
   border-radius: 0.75rem;
   overflow: hidden;
 }

@@ -42,7 +42,7 @@
     margin-top: 22px;
 }
 .thingsPack{
-    background: #141413;
+    background: var(--bgSecondary);
     border-radius: .75rem;
     padding: 30px 16px;
 }
@@ -95,11 +95,10 @@
     font-family: Inter;
     font-weight: 700;
     font-size: 2.5rem;
-    color: #090909;
+    color: var(--textPrimary);
 }
 .factsFigures .factsText{
-    color: #090909;
-
+    color: var(--textPrimary);
 }
 .factsStats{
     width: 48%;
@@ -112,7 +111,7 @@
     height: auto;
     padding: 20px;
     border-radius: 12px;
-    background: #141413;
+    background: var(--bgSecondary);
     gap: 10px;
     column-gap: 10px;
     font-family: Montserrat;
@@ -193,7 +192,7 @@
         font-family: Inter;
         font-weight: 700;
         font-size: 33px;
-        color: #090909;
+        color: var(--textPrimary);
     }
 
     .factsFigures{
@@ -239,7 +238,7 @@
         margin-top: 22px;
     }
     .thingsPack{
-        background: #141413;
+        background: var(--bgSecondary);
         border-radius: .75rem;
         padding: 15px 8px;
     }

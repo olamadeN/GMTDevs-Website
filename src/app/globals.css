@@ -3,15 +3,24 @@
 :root {
   --background: #090909;
   --foreground: #ffffff;
+  --bgSecondary:#141413;
+  --textPrimary: #ffffff;
+  --textFooter: #E6E6E6;
+  --faqPrimary: #ccc;
 }
 ::-webkit-scrollbar{
   width: 0;
   scroll-behavior: smooth;
 }
-@media (prefers-color-scheme: dark) {
+
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #090909;
-    --foreground: #ffffff;
+    --background:#ffffff ;
+    --foreground:#090909;
+    --textPrimary: #090909;
+    --bgSecondary:#f0f0f0;
+    --textFooter: #090909;
+    --faqPrimary: rgb(78, 78, 78)909;
   }
 }
 @media (prefers-color-scheme: dark) {

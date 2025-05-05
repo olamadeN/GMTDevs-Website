@@ -23,7 +23,8 @@
     border-radius: 0.5rem;
     border: 1px solid #D2B270;
     background: transparent;
-    color: rgba(255, 255, 255, 0.719);
+    color: var(--textPrimary);
+    opacity:0.7;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -32,7 +33,7 @@
   
   .nameButton:hover {
     /* width: 18rem; */
-    color: #FFFFFF;
+    color: var(--textPrimary);
     border-color: #D2B270;
     padding: 20px 45px;
     overflow: hidden;
@@ -51,7 +52,7 @@
   
   .active {
     border-color: #ffd700;
-    color: #FFFFFF;
+    color: var(--textPrimary);
   }
   
   .disabled {
