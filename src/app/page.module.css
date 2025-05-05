@@ -299,22 +299,25 @@
 
 @media (max-width: 479px) {
   .banner{
-    height: 305px;
+    margin-left: 3%;
+    height: 405px;
   }
   .bannerTxt{
     justify-content:center;
-    width: 106%;
-    gap: 10px;
+    width: 135%;
+    gap: 12px;
   }
   .banner img{
-    width: 230px;
-    height: auto;
+    width: 275px;
+    margin-right: -70px;
+    height: 320px;
   }
   .bannerTxt h1{
-    font-size: 24px;
+    font-size: 32px;
+    line-height: 29px;
   }
   .bannerTxt p{
-    font-size: 11px;
+    font-size: 14px;
   }
   .bannerTxt .bannerBtn{
     margin-bottom: 40px;
@@ -322,14 +325,14 @@
     gap: 3%;
   }
   .bannerTxt .bannerBtn div{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   /*ABOUT SECTION*/
   .aboutSection{
     height: max-content;
     padding: 1rem 6%;
-    margin-top: -76;
+    margin-top: -50px;
   }
   .aboutSection div{
     margin-top: 5px;

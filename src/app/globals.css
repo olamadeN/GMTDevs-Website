@@ -8,6 +8,17 @@
   width: 0;
   scroll-behavior: smooth;
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #090909;
+    --foreground: #ffffff;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
 
 html,
 body {
