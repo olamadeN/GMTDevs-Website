@@ -57,7 +57,7 @@ export default function Home() {
           <div>
             <h2 className={styles.subHeading}>About Us</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra ornare urna vel vestibulum. Sed ut consectetur ligula, nec blandit erat. Mauris eget quam id orci scelerisque egestas. Vestibulum tempor commodo suscipit. Morbi dolor neque, ullamcorper egestas augue in, semper pellentesque felis. Nullam accumsan nulla id efficitur rhoncus. Nunc egestas orci a neque commodo, vel placerat odio cursus. Morbi lacinia justo a rhoncus luctus. Sed tristique iaculis ante. Vestibulum bibendum mollis neque a blandit.
+             At GMTDevs, we create clean, effective websites tailored to  businesses and personal brands. Our designs focus on functionality, user experience, and your unique goals, making sure your website is not just beautiful but also working. We are not just developers; we are your partners in taking your brand online and helping you thrive in the digital world.
             </p>
           </div>
         </motion.section>
@@ -72,20 +72,29 @@ export default function Home() {
           <h2 className={styles.subHeading}>Our Design Services</h2>
           <div className={styles.designContainer}>
             <div className={styles.designContainerPack1}>
-              {["UI/UX Design", "Website Design", "Mobile Design"].map((title, i) => (
-                <motion.div key={i} className={styles.designContainerPackInner} variants={fadeInVariant}>
-                  <h3 className={styles.packh3}>{title}</h3>
-                  <p className={styles.packp}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra ornare urna vel vestibulum. Sed ut consectetur ligula.</p>
-                </motion.div>
-              ))}
+              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                <h3 className={styles.packh3}>Custom Website Design</h3>
+                <p className={styles.packp}> Have an idea? We’ll turn it into a fully functional website that works beautifully. You imagine it. We build it.</p>
+              </motion.div>
+              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                <h3 className={styles.packh3}>Landing Page Design </h3>
+                <p className={styles.packp}>We keep things simple but effective, helping you capture attention and guide your visitors to take that step</p>
+              </motion.div>
+              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                <h3 className={styles.packh3}>Redesign & Revamp </h3>
+                <p className={styles.packp}>Giving outdated sites a fresh and modern look. We keep what is working and fix what is not.</p>
+              </motion.div>
+
             </div>
             <div className={styles.designContainerPack2}>
-              {["Graphic Design", "Brand Design"].map((title, i) => (
-                <motion.div key={i} className={styles.designContainerPackInner} variants={fadeInVariant}>
-                  <h3 className={styles.packh3}>{title}</h3>
-                  <p className={styles.packp}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra ornare urna vel vestibulum. Sed ut consectetur ligula.</p>
-                </motion.div>
-              ))}
+              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                <h3 className={styles.packh3}>Portfolio & Personal Brand Design</h3>
+                <p className={styles.packp}>Your portfolio should do more than display your projects; it should reflect your personality, process, and professionalism.</p>
+              </motion.div>
+              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                <h3 className={styles.packh3}>Brand-Focused Design</h3>
+                <p className={styles.packp}> Your brand has a voice and your website should speak it clearly. We will give you visually cohesive designs that speak your brand language</p>
+              </motion.div>
             </div>
           </div>
         </motion.section>
@@ -100,26 +109,43 @@ export default function Home() {
           <h2 className={styles.subHeading}>Our Development Services</h2>
           <div className={styles.designContainer}>
             <div className={styles.designContainerPack1}>
-              {[1, 2, 3].map((_, i) => (
-                <motion.div key={i} className={styles.devContainerPack} variants={fadeInVariant}>
-                  <Image src='/images/mobiledesign.jpg' alt="ban" width={500} height={500} />
-                  <div className={styles.devContainerPackText}>
-                    <h3 className={styles.packh3}>Landing Page</h3>
-                    <p className={styles.packp}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra ornare urna vel vestibulum. Sed ut consectetur ligula.</p>
-                  </div>
-                </motion.div>
-              ))}
+              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                <Image src='/images/service/webDev.png' alt="ban" width={500} height={500} />
+                <div className={styles.devContainerPackText}>
+                  <h3 className={styles.packh3}>Custom Website Development</h3>
+                  <p className={styles.packp}>Tell us what you want and we build it for you. bring your imagination to life</p>
+                </div>
+              </motion.div>
+              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                <Image src='/images/service/ecommerce.png' alt="ban" width={500} height={500} />
+                <div className={styles.devContainerPackText}>
+                  <h3 className={styles.packh3}>E-commerce Development</h3>
+                  <p className={styles.packp}>We create functional online stores with smooth navigation, secure payments, and product management.</p>
+                </div>
+              </motion.div>
+              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                <Image src='/images/service/search.jpg' alt="ban" width={500} height={500} />
+                <div className={styles.devContainerPackText}>
+                  <h3 className={styles.packh3}>Performance & SEO Basics</h3>
+                  <p className={styles.packp}>Your site will be optimized for speed, accessibility, and search visibility right from the start.</p>
+                </div>
+              </motion.div>
             </div>
             <div className={styles.designContainerPack2}>
-              {[1, 2].map((_, i) => (
-                <motion.div key={i} className={styles.devContainerPack} variants={fadeInVariant}>
-                  <Image src='/images/mobiledesign.jpg' alt="ban" width={500} height={500} />
-                  <div className={styles.devContainerPackText}>
-                    <h3 className={styles.packh3}>Landing Page</h3>
-                    <p className={styles.packp}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra ornare urna vel vestibulum. Sed ut consectetur ligula.</p>
-                  </div>
-                </motion.div>
-              ))}
+              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                <Image src='/images/service/land.png' alt="ban" width={500} height={500} />
+                <div className={styles.devContainerPackText}>
+                  <h3 className={styles.packh3}>SaaS Development</h3>
+                  <p className={styles.packp}>From concept to launch, we work with you to turn your vision into a product that solves real problems.</p>
+                </div>
+              </motion.div>
+              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                <Image src='/images/service/support.jpeg' alt="ban" width={500} height={500} />
+                <div className={styles.devContainerPackText}>
+                  <h3 className={styles.packh3}>Post-Launch Support</h3>
+                  <p className={styles.packp}>We offer maintenance, updates, and technical support to keep your website running smoothly.</p>
+                </div>
+              </motion.div>
             </div>
           </div>
         </motion.section>

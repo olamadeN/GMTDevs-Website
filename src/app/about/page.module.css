@@ -23,8 +23,8 @@
     justify-content: center;
 }
 .aboutSubHead p{
-    font-family: Montserrat;
-    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     font-size: 1rem;
     text-align: center;
     margin-bottom: 18px;
@@ -58,8 +58,8 @@
     font-size: 1rem;
 }
 .thingsPack img{
-   width: auto;
-   height: auto;
+   width: 100px;
+   height: 75px;
 }
 
 
@@ -250,8 +250,8 @@
         font-size: 13px;
     }
     .thingsPack img{
-       width: 30%;
-       height: auto;
+       width: 95px;
+       height: 65px;
     }
     .questionSection{
         gap: 20px;

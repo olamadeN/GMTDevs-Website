@@ -30,7 +30,8 @@
     height: auto;
     padding: 40px;
     border-radius: 12px;
-    background: #141413;
+    background: var(--bgSecondary);
+    cursor: pointer;
     gap: 10px;
     column-gap: 10px;
     font-family: Montserrat;

@@ -29,19 +29,24 @@ const Service = () => {
 
             {[{
                 image: '/images/service/ui.png',
-                title: 'UI/UX Design'
+                title: 'Website UI/UX Design',
+                discription: "We craft beautiful, responsive websites that do more than look good—they work for your brand and your audience. We do not use templates or one-size-fits-all solutions. Instead, we design custom layouts that reflect your brands personality, values, and message. At GMTDevs, we take the time to understand your brand, your goals, and the people you want to reach. Then we create a custom design that reflects your personality and clearly communicates your value."
             }, {
                 image: '/images/service/website.png',
-                title: 'Web Development'
+                title: 'Landing Page Design',
+                discription: "We create focused, high-impact pages designed to drive results. Every element, from the layout to the call-to-action—is crafted with your goal in mind. Whether you're launching a product, running a campaign, or collecting leads, we design landing pages that are clean, compelling, and built to convert. At GMTDevs, we keep things simple but effective, helping you capture attention and guide your visitors to take the next step without distractions."
             }, {
                 image: '/images/service/mobile.png',
-                title: 'Mobile Development'
+                title: 'Redesign & Revamp',
+                discription: "We give outdated websites a fresh, modern feel without losing what makes you, you. If your current site feels clunky, outdated, or just not doing the job, we can help. At GMTDevs, we take what’s working, fix what’s not, and breathe new life into your online presence. From layout to visuals to user flow, we make sure your site looks better, works better, and feels like your brand today. Sometimes all you need is a smart refresh and we’re here to make it smooth and stress free."
             }, {
                 image: '/images/service/graphic.png',
-                title: 'Graphic Design'
+                title: 'Portfolio & Personal Brand Design',
+                discription: "With GMTDevs, you get a personal brand site that feels authentic, looks sharp, and leaves a lasting impression. Your portfolio should do more than display your projects; it should reflect your personality, process, and professionalism. Whether you're a creative, consultant, or freelancer, we design tailored websites that highlight your strengths and make it easy for visitors to understand what you do and why it matters. Show your work. Share your story. Stand out online."
             }, {
                 image: '/images/service/branding.png',
-                title: 'Branding'
+                title: 'Brand-Focused Design',
+                discription: "Your brand has a voice and your website should speak it clearly. At GMTDevs, it is not just about looking good, it is about looking like you. We design websites that feel like a natural extension of your brand, not an afterthought. From colors and typography to layout and tone, every detail is crafted to reflect your identity and values. Whether you're just starting out or already established, we make sure your online presence feels cohesive, intentional, and unmistakably you."
             }].map((service, index) => (
                 <motion.div 
                     key={index} 
@@ -55,7 +60,7 @@ const Service = () => {
 
                     <div className={`container ${styles.containerTxt}`}>
                         <h2>{service.title}</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis tortor ut ante feugiat tincidunt eu et metus. Integer condimentum purus vitae tellus rhoncus gravida. Aenean lorem dolor, varius quis dolor non, tempus tincidunt turpis. Fusce feugiat, diam nec dapibus tempus, neque dolor lacinia felis, eget accumsan ipsum sem et dui. Curabitur viverra finibus sapien.</p>
+                        <p>{service.discription}</p>
                         <div className='btn'>
                             <div>Get Started</div>    
                         </div>

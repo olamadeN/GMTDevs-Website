@@ -31,8 +31,9 @@
     overflow: hidden;
 }
 .serviceContainer img{
-    object-fit: contain;
-    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    width:  100%;
     height: 100%;
 }
 .containerTxt{
@@ -51,6 +52,7 @@
     font-family: Montserrat;
     font-weight: 400;
     font-size: 18px;
+    line-height: 23px;
     word-wrap: break-word;
 
 }

@@ -12,6 +12,7 @@
   grid-template-columns: 49% 50%;
   width: 90%;
   margin: auto 0px auto auto;
+  overflow: hidden !important;
 }
 .bannerTxt{
   display: flex;
@@ -25,22 +26,23 @@
   height: 662px;
   right: 0%;
   z-index: -2;
+  overflow:hidden ;
 }
 .bannerTxt h1{
-  font-family: "Belanosima";
+  font-family: "poppins", sans-serif;
   font-size: 4.375rem;
   font-weight: 400;
   line-height: 100%;
 }
 .bannerTxt p{
-  font-family: "Montserrat";
+  font-family: "poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
 }
 .bannerTxt .bannerBtn{
   width: 100%;
   display: flex;
-  font-family: "Montserrat";
+  font-family: "poppins", sans-serif;
   align-content: center;
   gap: 3%;
 }
@@ -77,7 +79,7 @@
 }
 .aboutSection div{
   text-align: center;
-  font-family: Montserrat;
+  font-family: "poppins", sans-serif;
   margin-top: 5px;
 }
 .subHeading{
@@ -105,31 +107,33 @@
   margin-top: 40px;
 }
 .designContainerPack1{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2%;
   height: fit-content;
 }
 .designContainerPackInner {
   width: 100%;
   background: var(--bgSecondary);
-  padding: 2% 3% 4% 3%;
+  padding: 5% 3% 5% 3%;
   color: var(--textPrimary);
   border-radius: 0.75rem;
   overflow: hidden;
 }
 
 .packh3{
-  font-family: "Montserrat";
+  font-family: "DM sans", sans-serif;
   font-weight: 600;
-  font-size: 1.5rem;
-  letter-spacing: 0%;
+  font-size: 1.7rem;
+  line-height: 22px;
   margin: 8px 0 18px 0;
 }
+
 .packp{
-  font-family: Montserrat;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 17px;
+  line-height: 20px;
   letter-spacing: 0%;
 }
 .designContainerPack2{
@@ -151,12 +155,6 @@
   object-fit: cover;
   object-position: top;
   margin-bottom: 10px;
-}
-.devContainerPackText .packh3{
-  font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 1.5rem;
-  margin: 8px 0 8px 0;
 }
 
 
@@ -299,19 +297,20 @@
 
 @media (max-width: 479px) {
   .banner{
-    margin-left: 3%;
+    margin:0 3%;
     height: 405px;
+    overflow: hidden;
   }
   .bannerTxt{
     justify-content:center;
-    width: 135%;
+    width: 100%;
     gap: 12px;
   }
-  .banner img{
-    width: 275px;
+/*   .banner img{
+    width: 0%;
     margin-right: -70px;
     height: 320px;
-  }
+  } */
   .bannerTxt h1{
     font-size: 32px;
     line-height: 29px;
