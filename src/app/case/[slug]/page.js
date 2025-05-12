@@ -3,6 +3,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import styles from './page.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 // Generates all possible static paths for [slug] at build time
 export async function generateStaticParams() {
@@ -52,7 +53,7 @@ export default async function ProjectDetails({ params }) {
       <section>
         <Image
           className={styles.showcaseImg}
-          src='/images/showcase/show1.jpg'
+          src={project.image2}
           height={500}
           width={500}
           alt='product sample'
@@ -76,7 +77,7 @@ export default async function ProjectDetails({ params }) {
           </div>
           <br /><br />
           <div className='btn'>
-            <div>Visit Project</div>
+            <div><Link href={project.url} target='_blank' >Visit Project</Link></div>
             <div>Get Started</div>
           </div>
         </div>

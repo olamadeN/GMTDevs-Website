@@ -81,14 +81,15 @@ export default function Home() {
                 <p className={styles.packp}>We keep things simple but effective, helping you capture attention and guide your visitors to take that step</p>
               </motion.div>
               <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
-                <h3 className={styles.packh3}>Redesign & Revamp </h3>
+                <h3 className={styles.packh3}>Redesigning & Revamping </h3>
                 <p className={styles.packp}>Giving outdated sites a fresh and modern look. We keep what is working and fix what is not.</p>
               </motion.div>
 
             </div>
             <div className={styles.designContainerPack2}>
               <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
-                <h3 className={styles.packh3}>Portfolio & Personal Brand Design</h3>
+                <h3 className={styles.packh3}>Personal Brand Design</h3>
+                {/* <h3 className={styles.packh3}>Portfolio & Personal Brand Design</h3> */}
                 <p className={styles.packp}>Your portfolio should do more than display your projects; it should reflect your personality, process, and professionalism.</p>
               </motion.div>
               <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
@@ -112,14 +113,14 @@ export default function Home() {
               <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
                 <Image src='/images/service/webDev.png' alt="ban" width={500} height={500} />
                 <div className={styles.devContainerPackText}>
-                  <h3 className={styles.packh3}>Custom Website Development</h3>
+                  <h3 className={styles.packh3}>Custom Web Development</h3>
                   <p className={styles.packp}>Tell us what you want and we build it for you. bring your imagination to life</p>
                 </div>
               </motion.div>
               <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
                 <Image src='/images/service/ecommerce.png' alt="ban" width={500} height={500} />
                 <div className={styles.devContainerPackText}>
-                  <h3 className={styles.packh3}>E-commerce Development</h3>
+                  <h3 className={styles.packh3}>Ecommerce Development</h3>
                   <p className={styles.packp}>We create functional online stores with smooth navigation, secure payments, and product management.</p>
                 </div>
               </motion.div>
@@ -135,7 +136,7 @@ export default function Home() {
               <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
                 <Image src='/images/service/land.png' alt="ban" width={500} height={500} />
                 <div className={styles.devContainerPackText}>
-                  <h3 className={styles.packh3}>SaaS Development</h3>
+                  <h3 className={styles.packh3}>SaaS Product Development</h3>
                   <p className={styles.packp}>From concept to launch, we work with you to turn your vision into a product that solves real problems.</p>
                 </div>
               </motion.div>

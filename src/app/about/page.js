@@ -5,6 +5,7 @@ import FaqItem from './(faq)/faq';
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
+import Link from 'next/link';
 
 
 const faqs = [
@@ -64,9 +65,9 @@ const About = () => {
       <motion.header ref={ref1} initial="hidden" animate={control1} variants={fadeUp} className={`container ${styles.aboutHead}`}>
         <h1>We Provide Innovative Design Solutions And Expert Options</h1>
         <div className={styles.aboutSubHead}>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sollicitudin, augue sit amet porttitor aliquet, dolor ex porttitor dolor, id posuere turpis magna a justo. Maecenas vestibulum augue ut massa porta, at pretium enim laoreet.</p>
+          <p>Your website is more than just a digital address. It is where first impressions are made, where trust is built, and where customers take action. At GMTDevs, we treat every project like it matters because it does.</p>
           <div className='btn'>
-            <div>Our Services</div>
+            <div><Link href="/serviceDev" >Our Services</Link></div>
             <div>Get Started</div>
           </div>
         </div>

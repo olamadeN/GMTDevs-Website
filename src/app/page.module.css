@@ -145,12 +145,13 @@
 
 /*Our Development Service*/
 .devContainerPack{
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 .devContainerPack img{
   height: 212px;
-  width: auto;
+  width: 100%;
   border-radius: .75rem;
   object-fit: cover;
   object-position: top;
@@ -297,6 +298,8 @@
 
 @media (max-width: 479px) {
   .banner{
+    grid-template-columns: 62% 35%;
+    gap: 5%;
     margin:0 3%;
     height: 405px;
     overflow: hidden;
@@ -306,11 +309,11 @@
     width: 100%;
     gap: 12px;
   }
-/*   .banner img{
-    width: 0%;
-    margin-right: -70px;
+  .banner img{
+    width: auto;
+    margin-right: -80px;
     height: 320px;
-  } */
+  } 
   .bannerTxt h1{
     font-size: 32px;
     line-height: 29px;
@@ -354,6 +357,7 @@
   .packh3{
     font-size: 18px;
     margin: 8px 0 13px 0;
+    line-height: 18px;
   }
   .packp{
     font-size: 11px;
