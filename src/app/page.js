@@ -41,7 +41,7 @@ export default function Home() {
           </p>
           <div className={styles.bannerBtn}>
             <div><Link href="/service">Our Services</Link> </div>
-            <div><Link href="/">Get Started</Link></div>
+            <div><Link href="/contact">Get Started</Link></div>
           </div>
         </motion.div>
         <Image src="/images/bannerFace.png" width={500} height={500} alt="banner" />
@@ -72,30 +72,38 @@ export default function Home() {
           <h2 className={styles.subHeading}>Our Design Services</h2>
           <div className={styles.designContainer}>
             <div className={styles.designContainerPack1}>
-              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
-                <h3 className={styles.packh3}>Custom Website Design</h3>
-                <p className={styles.packp}> Have an idea? We’ll turn it into a fully functional website that works beautifully. You imagine it. We build it.</p>
-              </motion.div>
-              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
-                <h3 className={styles.packh3}>Landing Page Design </h3>
-                <p className={styles.packp}>We keep things simple but effective, helping you capture attention and guide your visitors to take that step</p>
-              </motion.div>
-              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
-                <h3 className={styles.packh3}>Redesigning & Revamping </h3>
-                <p className={styles.packp}>Giving outdated sites a fresh and modern look. We keep what is working and fix what is not.</p>
-              </motion.div>
-
+              <Link href="/service#1">
+                <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                  <h3 className={styles.packh3}>Custom Website Design</h3>
+                  <p className={styles.packp}> Have an idea? We’ll turn it into a fully functional website that works beautifully. You imagine it. We build it.</p>
+                </motion.div>
+              </Link>
+              <Link href="/service#2">
+                <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                  <h3 className={styles.packh3}>Landing Page Design </h3>
+                  <p className={styles.packp}>We keep things simple but effective, helping you capture attention and guide your visitors to take that step</p>
+                </motion.div>
+              </Link>
+              <Link href="/serviceDev#3">
+                <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                  <h3 className={styles.packh3}>Redesigning & Revamping </h3>
+                  <p className={styles.packp}>Giving outdated sites a fresh and modern look. We keep what is working and fix what is not.</p>
+                </motion.div>
+              </Link>
             </div>
             <div className={styles.designContainerPack2}>
-              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
-                <h3 className={styles.packh3}>Personal Brand Design</h3>
-                {/* <h3 className={styles.packh3}>Portfolio & Personal Brand Design</h3> */}
-                <p className={styles.packp}>Your portfolio should do more than display your projects; it should reflect your personality, process, and professionalism.</p>
-              </motion.div>
-              <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
-                <h3 className={styles.packh3}>Brand-Focused Design</h3>
-                <p className={styles.packp}> Your brand has a voice and your website should speak it clearly. We will give you visually cohesive designs that speak your brand language</p>
-              </motion.div>
+              <Link href="/service#4">
+                <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                  <h3 className={styles.packh3}>Personal Brand Design</h3>
+                  <p className={styles.packp}>Your portfolio should do more than display your projects; it should reflect your personality, process, and professionalism.</p>
+                </motion.div>
+              </Link>
+              <Link href="/service#5">
+                <motion.div className={styles.designContainerPackInner} variants={fadeInVariant}>
+                  <h3 className={styles.packh3}>Brand-Focused Design</h3>
+                  <p className={styles.packp}> Your brand has a voice and your website should speak it clearly. We will give you visually cohesive designs that speak your brand language</p>
+                </motion.div>
+              </Link>
             </div>
           </div>
         </motion.section>
@@ -110,43 +118,53 @@ export default function Home() {
           <h2 className={styles.subHeading}>Our Development Services</h2>
           <div className={styles.designContainer}>
             <div className={styles.designContainerPack1}>
-              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                <Image src='/images/service/webDev.png' alt="ban" width={500} height={500} />
-                <div className={styles.devContainerPackText}>
-                  <h3 className={styles.packh3}>Custom Web Development</h3>
-                  <p className={styles.packp}>Tell us what you want and we build it for you. bring your imagination to life</p>
-                </div>
-              </motion.div>
-              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                <Image src='/images/service/ecommerce.png' alt="ban" width={500} height={500} />
-                <div className={styles.devContainerPackText}>
-                  <h3 className={styles.packh3}>Ecommerce Development</h3>
-                  <p className={styles.packp}>We create functional online stores with smooth navigation, secure payments, and product management.</p>
-                </div>
-              </motion.div>
-              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                <Image src='/images/service/search.jpg' alt="ban" width={500} height={500} />
-                <div className={styles.devContainerPackText}>
-                  <h3 className={styles.packh3}>Performance & SEO Basics</h3>
-                  <p className={styles.packp}>Your site will be optimized for speed, accessibility, and search visibility right from the start.</p>
-                </div>
-              </motion.div>
+              <Link href="/serviceDev#1">
+                <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                  <Image src='/images/service/webDev.png' alt="ban" width={500} height={500} />
+                  <div className={styles.devContainerPackText}>
+                    <h3 className={styles.packh3}>Custom Web Development</h3>
+                    <p className={styles.packp}>Tell us what you want and we build it for you. bring your imagination to life</p>
+                  </div>
+                </motion.div>
+              </Link>
+              <Link href="/serviceDev#2">
+                <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                  <Image src='/images/service/ecommerce.png' alt="ban" width={500} height={500} />
+                  <div className={styles.devContainerPackText}>
+                    <h3 className={styles.packh3}>Ecommerce Development</h3>
+                    <p className={styles.packp}>We create functional online stores with smooth navigation, secure payments, and product management.</p>
+                  </div>
+                </motion.div>
+              </Link>
+              <Link href="/serviceDev#3">
+                <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                  <Image src='/images/service/search.jpg' alt="ban" width={500} height={500} />
+                  <div className={styles.devContainerPackText}>
+                    <h3 className={styles.packh3}>Performance & SEO Basics</h3>
+                    <p className={styles.packp}>Your site will be optimized for speed, accessibility, and search visibility right from the start.</p>
+                  </div>
+                </motion.div>
+              </Link>
             </div>
             <div className={styles.designContainerPack2}>
-              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                <Image src='/images/service/land.png' alt="ban" width={500} height={500} />
-                <div className={styles.devContainerPackText}>
-                  <h3 className={styles.packh3}>SaaS Product Development</h3>
-                  <p className={styles.packp}>From concept to launch, we work with you to turn your vision into a product that solves real problems.</p>
-                </div>
-              </motion.div>
-              <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                <Image src='/images/service/support.jpeg' alt="ban" width={500} height={500} />
-                <div className={styles.devContainerPackText}>
-                  <h3 className={styles.packh3}>Post-Launch Support</h3>
-                  <p className={styles.packp}>We offer maintenance, updates, and technical support to keep your website running smoothly.</p>
-                </div>
-              </motion.div>
+              <Link href="/serviceDev#4">
+                <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                  <Image src='/images/service/land.png' alt="ban" width={500} height={500} />
+                  <div className={styles.devContainerPackText}>
+                    <h3 className={styles.packh3}>SaaS Product Development</h3>
+                    <p className={styles.packp}>From concept to launch, we work with you to turn your vision into a product that solves real problems.</p>
+                  </div>
+                </motion.div>
+              </Link>
+              <Link href="/serviceDev#5">
+                <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
+                  <Image src='/images/service/support.jpeg' alt="ban" width={500} height={500} />
+                  <div className={styles.devContainerPackText}>
+                    <h3 className={styles.packh3}>Post-Launch Support</h3>
+                    <p className={styles.packp}>We offer maintenance, updates, and technical support to keep your website running smoothly.</p>
+                  </div>
+                </motion.div>
+              </Link>
             </div>
           </div>
         </motion.section>

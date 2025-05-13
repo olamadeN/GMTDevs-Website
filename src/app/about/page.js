@@ -10,25 +10,35 @@ import Link from 'next/link';
 
 const faqs = [
     {
-      question: 'How we work',
+      question: 'What happens after I contact you?',
       answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra ornare urna vel vestibulum. Sed ut consectetur ligula, nec blandit erat.',
+        'Once you reach out, we kick things off with a discovery session to understand your goals. From there, we create a personalized plan, define clear timelines, and keep you in the loop throughout the process. Communication and clarity are key at every step.',
     },
     {
-      question: 'How to Contact Us?',
+      question: 'How long will my project take?',
       answer:
-        'You can contact us through our website form or email. We respond within 24 hours.',
+        'Most projects are completed within 2 to 4 weeks, depending on complexity. We outline all milestones from the start, so you always know what is coming next and when to expect it.',
     },
     {
-      question: 'Do designer scam clients?',
+      question: 'Can we work together remotely?',
       answer:
-        'Not all. It depends on the designer. Always check for reviews, portfolios, and contracts.',
+        'Yes, we work seamlessly with clients both locally and internationally. From email to video calls and digital project boards, we stay connected and collaborative no matter where you are.',
     },
     {
-      question: 'What features do you offer?',
+      question: 'What tools or technologies do you use?',
       answer:
-        'We offer responsive design, SEO optimization, admin dashboards, and custom integrations.',
+        'We use cutting-edge tools like Next.js, React, AI and responsive CSS to build fast, scalable websites with smooth user experiences. We also tap into AI-powered features so your site is not just modern, but intelligent and future-ready.',
     },
+    {
+      question: 'What if I need changes after the website is live?',
+      answer:
+        'We offer post-launch support to fix bugs, make improvements, or update content. Our flexible maintenance options are designed to help your website grow as your brand does.',
+    },
+    {
+      question: ' What if I do not have a clear idea yet?',
+      answer:
+        'No problem. You do not need to have everything figured out before reaching out. We will work closely with you to understand your goals, explore your options, and guide you through what is possible based on your needs and budget.',
+    }
 ];
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -68,7 +78,7 @@ const About = () => {
           <p>Your website is more than just a digital address. It is where first impressions are made, where trust is built, and where customers take action. At GMTDevs, we treat every project like it matters because it does.</p>
           <div className='btn'>
             <div><Link href="/serviceDev" >Our Services</Link></div>
-            <div>Get Started</div>
+            <div> <Link href="/contact">Get Started </Link></div>
           </div>
         </div>
       </motion.header>
@@ -115,21 +125,21 @@ const About = () => {
             <Image src={`/images/design.png`} width={500} height={500} alt="our process step" />
             <div className={styles.thingsTxtPack}>
               <p>Plan</p>
-              <p>We outline the structure, features, and timeline that will bring your website to life with clarity and purpose.</p>
+              <p>We define the website’s structure, features, and timeline, ensuring clear goals and purpose aligned with your business needs.</p>
             </div>
           </motion.div>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
             <Image src={`/images/develop.png`} width={500} height={500} alt="our process step" />
             <div className={styles.thingsTxtPack}>
               <p>Create</p>
-              <p>From design to development, we build a seamless digital experience tailored to your goals and fully responsive across devices.</p>
+              <p>We craft a seamless digital experience from design to development, ensuring full responsiveness across all devices.</p>
             </div>
           </motion.div>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
             <Image src={`/images/deliver.png`} width={500} height={500} alt="our process step" />
             <div className={styles.thingsTxtPack}>
               <p>Support</p>
-              <p>After launch, we remain by your side handling refinements, updates, and ensuring your website continues to serve your business as it grows.</p>
+              <p>Post-launch, we continue supporting your website with refinements, updates, and ensuring it grows alongside your business.</p>
             </div>
           </motion.div>
         </div>
@@ -172,7 +182,7 @@ const About = () => {
           <div className={styles.questionTitlePack}>
             <h2 className='aboutTitle'>Any Questions? We got you.</h2>
           </div>
-          <p className={styles.aboutMainTxt}>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p className={styles.aboutMainTxt}>Find quick answers to what people ask the most.</p>
         </div>
         <div className={styles.questionRight}>
           {faqs.map((faq, index) => (

@@ -26,7 +26,7 @@ export default async function ProjectDetails({ params }) {
   if (!project) return <div>Project not found</div>;
 
   return (
-    <div style={{ padding: 20 }}>
+    <div >
       <h1 className={styles.caseBannerTitle}>{project.title}</h1>
       <Image
         className={styles.caseBannerImg}
@@ -50,7 +50,7 @@ export default async function ProjectDetails({ params }) {
         </div>
       </section>
 
-      <section>
+      <section style={{ padding: 20 }}>
         <Image
           className={styles.showcaseImg}
           src={project.image2}
@@ -78,7 +78,7 @@ export default async function ProjectDetails({ params }) {
           <br /><br />
           <div className='btn'>
             <div><Link href={project.url} target='_blank' >Visit Project</Link></div>
-            <div>Get Started</div>
+            <div><Link href="/contact">Get Started</Link></div>
           </div>
         </div>
       </section>

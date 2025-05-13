@@ -3,6 +3,7 @@ import styles from './page.module.css';
 import { FaFacebookF, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 
 export default function ContactPage() {
+  const formSubmit = "https://app.getform.io/f/bjjmkjnb";
   return (
     <main className={styles.contactPage}>
       <div className={styles.header}>
@@ -13,7 +14,7 @@ export default function ContactPage() {
       <div className={styles.contactWrapper}>
         {/* Contact Form */}
         <form
-          action="https://app.getform.io/forms/bjjmkjnb"
+          action="https://getform.io/f/bjjmkjnb"
           method="POST"
           className={styles.contactForm}
         >
@@ -32,7 +33,7 @@ export default function ContactPage() {
             <textarea name="message" required placeholder="Your message..." rows="6" />
           </label>
 
-          <button type="submit">Send Message</button>
+          <button type="submit">Tell us your idea ...</button>
         </form>
 
         {/* Social Media Section */}
@@ -40,9 +41,9 @@ export default function ContactPage() {
           <h3>Connect With Us</h3>
           <p>Follow us on social media or send us a message directly.</p>
           <div className={styles.socialIcons}>
-            <a href="https://facebook.com" target="_blank"><FaFacebookF /></a>
+            <a href="https://www.facebook.com/people/GMTDevs/61571406335662/" target="_blank"><FaFacebookF /></a>
             <a href="https://linkedin.com" target="_blank"><FaLinkedinIn /></a>
-            <a href="https://wa.me/2348012345678" target="_blank"><FaWhatsapp /></a>
+            <a href="https://wa.me/2347011927970" target="_blank"><FaWhatsapp /></a>
           </div>
         </div>
       </div>

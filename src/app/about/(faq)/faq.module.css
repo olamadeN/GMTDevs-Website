@@ -35,7 +35,7 @@
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height 0.6s ease, opacity 0.6s ease;
+    transition: max-height 0.80s ease-out, opacity 0.90s ease-in;
     color: var(--faqPrimary);
     font-size: 0.95rem;
    /*  margin-top: 0.5rem; */
