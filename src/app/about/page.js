@@ -89,21 +89,21 @@ const About = () => {
           <div>
             <h3 className='aboutSubTitle'>ABOUT US</h3>
             <p className='aboutMainTxt'>
-              <p>At GMTDevs, we specialize in crafting smart, clean, and effective web solutions tailored to meet the unique needs of businesses and personal brands. With a strong focus on design, functionality, and user experience, we help business owners establish a powerful online presence that communicates their value and drives growth.</p>
+              <span>At GMTDevs, we specialize in crafting smart, clean, and effective web solutions tailored to meet the unique needs of businesses and personal brands. With a strong focus on design, functionality, and user experience, we help business owners establish a powerful online presence that communicates their value and drives growth.</span>
               <br/>
-              <p>Our mission is simple: to make high-quality websites accessible and valuable to entrepreneurs who are ready to take their brand online. Whether you are a food vendor selling Nigerian delicacies, a real estate agent showcasing properties, or a creative professional looking to present your portfolio, we build with your vision and customers in mind.</p>
+              <span>Our mission is simple: to make high-quality websites accessible and valuable to entrepreneurs who are ready to take their brand online. Whether you are a food vendor selling Nigerian delicacies, a real estate agent showcasing properties, or a creative professional looking to present your portfolio, we build with your vision and customers in mind.</span>
               <br/>
-              <p>We understand that your website is more than just a digital space; it is your platform to build trust, convert interest into action, and grow your brand sustainably. At GMTDevs, we are not just developers. We are partners in your digital journey, committed to helping you create something meaningful that aligns with your goals and supports your business growth.</p>
+              <span>We understand that your website is more than just a digital space; it is your platform to build trust, convert interest into action, and grow your brand sustainably. At GMTDevs, we are not just developers. We are partners in your digital journey, committed to helping you create something meaningful that aligns with your goals and supports your business growth.</span>
             </p>
           </div>
           <div>
             <h3 className='aboutSubTitle'>OUR VIRTUES</h3>
             <p className='aboutMainTxt'>
-              <p>What sets us apart is our partnership mindset. We do not just deliver a website and walk away, we walk with you. We take time to understand your business, offer guidance on what will work best for your audience, and help you make informed decisions along the way. We combine design thinking with technical excellence, blending visual appeal with functionality to create a digital space that truly represents your brand.</p>
+              <span>What sets us apart is our partnership mindset. We do not just deliver a website and walk away, we walk with you. We take time to understand your business, offer guidance on what will work best for your audience, and help you make informed decisions along the way. We combine design thinking with technical excellence, blending visual appeal with functionality to create a digital space that truly represents your brand.</span>
               <br/>
-              <p>
+              <span>
                 To us your website is more than just a digital address. It is where first impressions are made, where trust is built, and where customers make decision and take action. At GMTDevs, we treat every project like it matters, because it does. You do the hard work of building your business and We make sure the world sees it.
-              </p>
+              </span>
             </p>
           </div>
         </div>

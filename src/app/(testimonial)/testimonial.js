@@ -5,31 +5,31 @@ import styles from './testimonial.module.css';
 
 const testimonials = [
   {
-    name: 'Clement King',
-    role: 'Artisan',
+    name: 'Isaac Kayode',
+    role: 'Product Designer',
     message:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ante tellus, ultricies sed augue lacinia, gravida laoreet neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut quis lorem at sapien tempor ultricies sit amet vel erat. Nam dignissim felis eget purus porta.',
+      'GMTDevs delivered a pixel-perfect implementation ahead of schedule. Their attention to detail and clear communication made the whole process easy. Highly recommend for anyone needing quality web development.',
     active: true,
   },
   {
-    name: 'Ladipo Isreal',
+    name: 'Dami',
     role: 'Designer',
     message:
-      'Ladipo has been an excellent team member. Very professional and always delivers quality designs. Highly recommend.',
+      'I was referred to GMTDevs by a colleague, and they still managed to exceed expectations. From the first chat, it was clear they knew what they were doing. They took my ideas, added their touch, and delivered a clean, well-done website ahead of schedule. Really glad I followed that recommendation.',
     active: false,
   },
   {
-    name: 'David Park',
+    name: 'Edward',
     role: 'Developer',
     message:
-      'Working with David was a pleasure. He is skilled and communicates well throughout every project phase.',
+      'GMTDevs did a good job on my site. Clean work, no hassle.',
     active: false,
   },
   {
-    name: 'Micheal Lane',
+    name: 'Micheal',
     role: 'Marketer',
     message:
-      'Micheal brought in creative strategies that elevated our campaign results. He is a true asset to any team.',
+      'Working with GMTDevs was an absolute breeze. They took my design and brought it to life with perfect precision. Communication was smooth, they delivered ahead of schedule, and the final result was exactly what I had in mind — maybe even better. Highly recommend!',
     active: false,
   },
 ];
