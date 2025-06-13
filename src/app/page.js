@@ -44,7 +44,7 @@ export default function Home() {
             <div><Link href="/contact">Get Started</Link></div>
           </div>
         </motion.div>
-        <Image src="/images/bannerFace.png" width={500} height={500} alt="banner" />
+        <Image src="/images/bannerFace.webp" width={1200} height={600} alt="banner" priority/>
       </header>
       <main className={styles.main}>
         <motion.section
@@ -120,7 +120,7 @@ export default function Home() {
             <div className={styles.designContainerPack1}>
               <Link href="/serviceDev#1">
                 <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                  <Image src='/images/service/webDev.png' alt="ban" width={500} height={500} />
+                  <Image src='/images/service/webDev.png' alt="ban" width={500} height={500} loading="lazy"/>
                   <div className={styles.devContainerPackText}>
                     <h3 className={styles.packh3}>Custom Web Development</h3>
                     <p className={styles.packp}>Tell us what you want and we build it for you. bring your imagination to life</p>
@@ -129,7 +129,7 @@ export default function Home() {
               </Link>
               <Link href="/serviceDev#2">
                 <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                  <Image src='/images/service/ecommerce.png' alt="ban" width={500} height={500} />
+                  <Image src='/images/service/ecommerce.webp' alt="ban" width={500} height={500} loading="lazy"/>
                   <div className={styles.devContainerPackText}>
                     <h3 className={styles.packh3}>Ecommerce Development</h3>
                     <p className={styles.packp}>We create functional online stores with smooth navigation, secure payments, and product management.</p>
@@ -138,7 +138,7 @@ export default function Home() {
               </Link>
               <Link href="/serviceDev#3">
                 <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                  <Image src='/images/service/search.jpg' alt="ban" width={500} height={500} />
+                  <Image src='/images/service/search.jpg' alt="ban" width={500} height={500} loading="lazy"/>
                   <div className={styles.devContainerPackText}>
                     <h3 className={styles.packh3}>Performance & SEO Basics</h3>
                     <p className={styles.packp}>Your site will be optimized for speed, accessibility, and search visibility right from the start.</p>
@@ -149,7 +149,7 @@ export default function Home() {
             <div className={styles.designContainerPack2}>
               <Link href="/serviceDev#4">
                 <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                  <Image src='/images/service/land.png' alt="ban" width={500} height={500} />
+                  <Image src='/images/service/land.png' alt="ban" width={500} height={500} loading="lazy"/>
                   <div className={styles.devContainerPackText}>
                     <h3 className={styles.packh3}>SaaS Product Development</h3>
                     <p className={styles.packp}>From concept to launch, we work with you to turn your vision into a product that solves real problems.</p>
@@ -158,7 +158,7 @@ export default function Home() {
               </Link>
               <Link href="/serviceDev#5">
                 <motion.div className={styles.devContainerPack} variants={fadeInVariant}>
-                  <Image src='/images/service/support.jpeg' alt="ban" width={500} height={500} />
+                  <Image src='/images/service/support.jpeg' alt="ban" width={500} height={500} loading="lazy"/>
                   <div className={styles.devContainerPackText}>
                     <h3 className={styles.packh3}>Post-Launch Support</h3>
                     <p className={styles.packp}>We offer maintenance, updates, and technical support to keep your website running smoothly.</p>

@@ -35,7 +35,7 @@ const ServiceDev = () => {
                 discription: "Have an idea? We’ll turn it into a fully functional website that works beautifully. At GMTDevs, we build from the ground up, no shortcuts, no cookie-cutter code. Just smart, scalable websites tailored to your exact needs. Whether you have a clear vision or just a spark of an idea, we’ll work with you to bring it to life with clean code, smooth performance, and the flexibility to grow with your business. You imagine it. We build it."
             }, {
                 id: 2,
-                image: '/images/service/ecommerce.png',
+                image: '/images/service/ecommerce.webp',
                 title: 'E-commerce Development',
                 discription: "We build online stores that work the way you do. At GMTDevs, we design e-commerce websites with smooth navigation, secure payment gateways, and hassle-free product management. Your online store should be simple to navigate and easy for you to manage, so we focus on creating a seamless experience for both you and your customers. Whether you’re selling one product or a whole catalog,  we create a smooth experience for both you and your customers."
             }, {

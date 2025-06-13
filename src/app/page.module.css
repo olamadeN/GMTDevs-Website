@@ -302,7 +302,7 @@
     gap: 5%;
     margin:0 3%;
     height: 405px;
-    overflow: hidden;
+    overflow: hidden !important;
   }
   .bannerTxt{
     justify-content:center;
@@ -310,9 +310,9 @@
     gap: 12px;
   }
   .banner img{
-    width: auto;
-    margin-right: -80px;
-    height: 320px;
+    width:215px;
+    margin-right:0px;
+    height: 310px;
   } 
   .bannerTxt h1{
     font-size: 32px;
@@ -355,28 +355,43 @@
     margin-top: 20px;
   }
   .packh3{
-    font-size: 18px;
+    font-size: 20px;
     margin: 8px 0 13px 0;
     line-height: 18px;
   }
   .packp{
-    font-size: 11px;
-    line-height: 12px;
+    font-size: 13px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   /*Our Development Service*/
   .designContainerPack1{
     display: flex;
-    /* flex-direction: column; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    gap: 21px;
   }
   .devContainerPack img{
-    height: 100px;
+    height: 170px;
+    object-fit: cover;
+    object-position: top;
     margin-bottom: 5px;
   }
   .devContainerPackText .packh3{
-    font-size: 18px;
+    font-size: 20px;
     margin: 5px 0 5px 0;
   }
+  .designContainerPack2{
+     padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   /*Testimonials*/
   .testimonialSection{
     margin-top: 60px;
