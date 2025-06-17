@@ -189,11 +189,11 @@ a {
     font-size: 24px;
   }
   .container{
-    width: 95%;
+    width: 92%;
     margin: auto auto;
   }
   .btn div{
-    font-size: 10px;
+    font-size: 12px;
   }
   .identitySection{
     margin-top: 50px;
@@ -208,6 +208,6 @@ a {
   }
   .aboutMainTxt{
     font-size: 13px;
-    line-height: 110%;
+    line-height: 17px;
   }
 }

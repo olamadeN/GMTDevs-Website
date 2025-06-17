@@ -3,7 +3,6 @@
     font-weight: 400;
     font-size: 18px;
 }
-
 .aboutHead{
     display: flex;
     flex-direction: column;
@@ -219,15 +218,22 @@
 }
 
 @media (max-width: 479px) {
+    .aboutHead{
+        width: auto;
+        margin: 51px 5%;
+    }
     .aboutHead h1{
         font-size: 24px;
+        text-align: left;
     }
     .aboutSubHead{
         width: 100%;
         margin-top: -20px;
+        
     }
     .aboutSubHead p{
-        font-size: 10px;
+        font-size: 11px;
+        text-align: left;
     }
     .aboutTitlePack{
         width: 30%;
@@ -249,9 +255,17 @@
     .thingsPack p:last-child{
         font-size: 13px;
     }
+    .thingsImgPack{
+        width: auto;
+       height: 50px;
+    }
+    #thingsImgPack{
+        width: 64px;
+       height: 48px;
+    }
     .thingsPack img{
-       width: 95px;
-       height: 65px;
+       width: 55px;
+       height: auto;
     }
     .questionSection{
         gap: 10px;

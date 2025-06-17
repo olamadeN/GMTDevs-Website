@@ -115,28 +115,32 @@ const About = () => {
         </div>
         <div className={styles.thingsPackContainer}>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
-            <Image src={`/images/discover.png`} width={500} height={500} alt="our process step" />
+            <div className={styles.thingsImgPack}><Image src={`/images/discover.png`} width={500} height={500} alt="our process step" /></div>
+            
             <div className={styles.thingsTxtPack}>
               <p>Understand</p>
               <p>We begin by listening. Getting to know your brand, your audience, and what success looks like for you.</p>
             </div>
           </motion.div>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
-            <Image src={`/images/design.png`} width={500} height={500} alt="our process step" />
+            
+            <div className={styles.thingsImgPack}><Image src={`/images/design.png`} width={500} height={500} alt="our process step" /></div>
             <div className={styles.thingsTxtPack}>
               <p>Plan</p>
               <p>We define the website’s structure, features, and timeline, ensuring clear goals and purpose aligned with your business needs.</p>
             </div>
           </motion.div>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
-            <Image src={`/images/develop.png`} width={500} height={500} alt="our process step" />
+            <div className={styles.thingsImgPack}><Image src={`/images/develop.png`} width={500} height={500} alt="our process step" /></div>
+            
             <div className={styles.thingsTxtPack}>
               <p>Create</p>
               <p>We craft a seamless digital experience from design to development, ensuring full responsiveness across all devices.</p>
             </div>
           </motion.div>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
-            <Image src={`/images/deliver.png`} width={500} height={500} alt="our process step" />
+            <div className={styles.thingsImgPack}><Image id={styles.thingsImgPack} src={`/images/deliver.png`} width={500} height={500} alt="our process step" /></div>
+            
             <div className={styles.thingsTxtPack}>
               <p>Support</p>
               <p>Post-launch, we continue supporting your website with refinements, updates, and ensuring it grows alongside your business.</p>
