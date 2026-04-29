@@ -139,9 +139,11 @@
     .navLinks a {
         width: 100%;
         padding: 10px 0;
+        color:  #E6E6E6;
     }
     .dropdown {
         width: 100%;
+        color: #E6E6E6;
     }
     .dropdownContent {
         position: relative;
@@ -154,7 +156,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        gap: 7px;
+        padding-top: 8px;
+    }
+    .dropdown:hover .dropdownContent a {
+        font-size: 11.5px;
+        padding: 0px;
     }
 }
 @media screen and (max-width: 486px) {
