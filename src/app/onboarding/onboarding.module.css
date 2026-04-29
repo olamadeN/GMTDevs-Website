@@ -4,7 +4,11 @@
   padding: 20px;
   font-family: "Inter", sans-serif;
 }
-::placeholder{
+.input::placeholder{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.textarea::placeholder{
   font-family: "Inter", sans-serif;
   font-size: 16px;
 }
