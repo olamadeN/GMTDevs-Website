@@ -35,13 +35,15 @@ const OnboardingForm = () => {
   };
 
   const submit = async () => {
-    await fetch("/api/onboarding", {
+    const res = await fetch("/api/onboarding", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
     });
-
-    setStep(step + 1)
+    if(res.ok){
+       setStep(step + 1)
+    }
+   
   };
 
   return (
