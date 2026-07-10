@@ -28,14 +28,7 @@ export default async function ProjectDetails({ params }) {
   return (
     <div >
       <h1 className={styles.caseBannerTitle}>{project.title}</h1>
-      <Image
-        className={styles.caseBannerImg}
-        src={project.image}
-        alt={project.title}
-        width={500}
-        height={500}
-      />
-
+      <img className={styles.caseBannerImg} src={project.image} alt={project.title}/>
       <section className='container identitySection'>
         <h2 className='aboutTitle'>About the project</h2>
         <div className='identityTxt'>
@@ -51,13 +44,7 @@ export default async function ProjectDetails({ params }) {
       </section>
 
       <section style={{ padding: 20 }}>
-        <Image
-          className={styles.showcaseImg}
-          src={project.image2}
-          height={500}
-          width={500}
-          alt='product sample'
-        />
+        <img className={styles.showcaseImg} src={project.image2}  alt='product sample'/>
         <div className={`container ${styles.resultsPack}`}>
           <h3 className='aboutTitle'>The Results</h3>
           <br />
