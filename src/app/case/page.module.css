@@ -40,7 +40,7 @@
 }
 .caseCardTxt{
     text-align: left;
-    font-family: "var(--font-heading)";
+    font-family: var(--font-heading);
     display: flex;
     flex-direction: column;
     gap:1rem;
