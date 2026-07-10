@@ -75,7 +75,7 @@ const About = () => {
       <motion.header ref={ref1} initial="hidden" animate={control1} variants={fadeUp} className={`container ${styles.aboutHead}`}>
         <h1>We Provide Innovative Design Solutions And Expert Options</h1>
         <div className={styles.aboutSubHead}>
-          <p>Your website is more than just a digital address. It is where first impressions are made, where trust is built, and where customers take action. At GMTDevs, we treat every project like it matters because it does.</p>
+          <p style={{lineHeight:"24px"}}>Your website is more than just a digital address. It is where first impressions are made, where trust is built, and where customers take action. At GMTDevs, we treat every project like it matters because it does.</p>
           <div className='btn'>
             <div><Link href="/serviceDev" >Our Services</Link></div>
             <div> <Link href="/contact">Get Started </Link></div>
@@ -88,7 +88,7 @@ const About = () => {
         <div className='identityTxt'>
           <div>
             <h3 className='aboutSubTitle'>ABOUT US</h3>
-            <p className='aboutMainTxt'>
+            <p style={{lineHeight:"24px"}} className='aboutMainTxt'>
               <span>At GMTDevs, we specialize in crafting smart, clean, and effective web solutions tailored to meet the unique needs of businesses and personal brands. With a strong focus on design, functionality, and user experience, we help business owners establish a powerful online presence that communicates their value and drives growth.</span>
               <br/>
               <span>Our mission is simple: to make high-quality websites accessible and valuable to entrepreneurs who are ready to take their brand online. Whether you are a food vendor selling Nigerian delicacies, a real estate agent showcasing properties, or a creative professional looking to present your portfolio, we build with your vision and customers in mind.</span>
@@ -98,7 +98,7 @@ const About = () => {
           </div>
           <div>
             <h3 className='aboutSubTitle'>OUR VIRTUES</h3>
-            <p className='aboutMainTxt'>
+            <p style={{lineHeight:"24px"}} className='aboutMainTxt'>
               <span>What sets us apart is our partnership mindset. We do not just deliver a website and walk away, we walk with you. We take time to understand your business, offer guidance on what will work best for your audience, and help you make informed decisions along the way. We combine design thinking with technical excellence, blending visual appeal with functionality to create a digital space that truly represents your brand.</span>
               <br/>
               <span>
@@ -119,7 +119,7 @@ const About = () => {
             
             <div className={styles.thingsTxtPack}>
               <p>Understand</p>
-              <p>We begin by listening. Getting to know your brand, your audience, and what success looks like for you.</p>
+              <p style={{lineHeight:"24px"}}>We begin by listening. Getting to know your brand, your audience, and what success looks like for you.</p>
             </div>
           </motion.div>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
@@ -127,7 +127,7 @@ const About = () => {
             <div className={styles.thingsImgPack}><Image src={`/images/design.png`} width={500} height={500} alt="our process step" /></div>
             <div className={styles.thingsTxtPack}>
               <p>Plan</p>
-              <p>We define the website’s structure, features, and timeline, ensuring clear goals and purpose aligned with your business needs.</p>
+              <p style={{lineHeight:"24px"}}>We define the website’s structure, features, and timeline, ensuring clear goals and purpose aligned with your business needs.</p>
             </div>
           </motion.div>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
@@ -135,7 +135,7 @@ const About = () => {
             
             <div className={styles.thingsTxtPack}>
               <p>Create</p>
-              <p>We craft a seamless digital experience from design to development, ensuring full responsiveness across all devices.</p>
+              <p style={{lineHeight:"24px"}}>We craft a seamless digital experience from design to development, ensuring full responsiveness across all devices.</p>
             </div>
           </motion.div>
           <motion.div className={styles.thingsPack} variants={fadeUp}>
@@ -143,7 +143,7 @@ const About = () => {
             
             <div className={styles.thingsTxtPack}>
               <p>Support</p>
-              <p>Post-launch, we continue supporting your website with refinements, updates, and ensuring it grows alongside your business.</p>
+              <p style={{lineHeight:"24px"}}>Post-launch, we continue supporting your website with refinements, updates, and ensuring it grows alongside your business.</p>
             </div>
           </motion.div>
         </div>
@@ -158,24 +158,24 @@ const About = () => {
             <div>
               <p className={styles.factsSubheading}>Facts and Figures</p>
             </div>
-            <p className={`${styles.aboutMainTxt} ${styles.factsText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <p style={{lineHeight:"24px"}} className={`${styles.aboutMainTxt} ${styles.factsText}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
           </div>
           <div className={styles.factsStats}>
             <motion.div className={styles.statsPack} variants={fadeUp}>
               <p>80%</p>
-              <p>Completed and Delivered Projects</p>
+              <p style={{lineHeight:"24px"}}>Completed and Delivered Projects</p>
             </motion.div>
             <motion.div className={styles.statsPack} variants={fadeUp}>
               <p>₦ 12M</p>
-              <p>Streamlined Asset Design Delivery</p>
+              <p style={{lineHeight:"24px"}}>Streamlined Asset Design Delivery</p>
             </motion.div>
             <motion.div className={styles.statsPack} variants={fadeUp}>
               <p>30+</p>
-              <p>Project Worked on</p>
+              <p style={{lineHeight:"24px"}}>Project Worked on</p>
             </motion.div>
             <motion.div className={styles.statsPack} variants={fadeUp}>
               <p>98%</p>
-              <p>Customer Satisfaction</p>
+              <p style={{lineHeight:"24px"}}>Customer Satisfaction</p>
             </motion.div>
           </div>
         </div>

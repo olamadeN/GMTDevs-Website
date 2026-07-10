@@ -1,32 +1,34 @@
 import "./globals.css";
-import { Belanosima, DM_Sans, Montserrat, Inter, Poppins} from "next/font/google";
+import { Belanosima, DM_Sans, Inter, Montserrat, Poppins } from "next/font/google";
 import Navbar from "./(navbar)/navbar";
 import Footer from "./(footer)/footer";
 
 
-const Belanosima = Belanosima({
+const belanosima = Belanosima({
   variable: "--Belanosima",
   subsets: ["latin"],
+  weight: ["400", "600", "700"]
 });
 
-const DM_Sans = DM_Sans({
+const dM_Sans = DM_Sans({
   variable: "--DMSans",
   subsets: ["latin"],
 });
 
-const Montserrat = Montserrat({
+const montserrat = Montserrat({
   variable: "--Montserrat",
   subsets: ["latin"],
 });
 
-const Inter = Inter({
+const inter = Inter({
   variable: "--Inter",
   subsets: ["latin"],
 });
 
-const Poppins = Poppins({
+const poppins = Poppins({
   variable: "--Poppins",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"]
 });
 
 export const metadata = {
@@ -37,7 +39,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${Poppins.variable} ${Inter.variable} ${Montserrat.variable} ${DM_Sans.variable} ${Belanosima.variable}`}>
+    <html lang="en" className={`${poppins.variable} ${inter.variable} ${montserrat.variable} ${dM_Sans.variable} ${belanosima.variable}`}>
       <head>
         {/*Google tag (gtag.js) */}
         <script async src={`https://www.googletagmanager.com/gtag/js?id=G-DCET6HD4LW`}></script>
