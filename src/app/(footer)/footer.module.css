@@ -11,7 +11,7 @@
     height: 102px;
 }
 .footerSubHeading{
-    font-family: Montserrat;
+    font-family: var(--font-heading);
     color: var(--textFooter);
     opacity: 60%;
     font-weight: 500;
@@ -24,7 +24,7 @@
 .footerGrid ul{
     color: var(--textFooter);
     list-style-type: none;
-    font-family: Montserrat;
+    font-family: var(--font-heading);
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
@@ -42,7 +42,7 @@
 .copyright{
     display: flex;
     justify-content: space-between;
-    font-family: Montserrat;
+    font-family: var(--font-heading);
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;

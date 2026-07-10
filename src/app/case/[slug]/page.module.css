@@ -36,7 +36,7 @@
     cursor: pointer;
     gap: 10px;
     column-gap: 10px;
-    font-family: Montserrat;
+    font-family: var(--font-heading);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +73,7 @@
         background: #141413;
         gap: 10px;
         column-gap: 10px;
-        font-family: Montserrat;
+        font-family: var(--font-heading);
         display: flex;
         flex-direction: column;
         justify-content: center;

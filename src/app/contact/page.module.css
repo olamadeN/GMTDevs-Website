@@ -2,7 +2,7 @@
   background: var(--bgSecondary);
   color: var(--textPrimary);
   padding: 80px 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-heading), sans-serif;
 }
 
 .header {

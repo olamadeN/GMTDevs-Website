@@ -2,14 +2,14 @@
   max-width: 78vw;
   margin: auto;
   padding: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--Inter), sans-serif;
 }
 .input::placeholder{
-  font-family: "Inter", sans-serif;
+  font-family: var(--Inter), sans-serif;
   font-size: 16px;
 }
 .textarea::placeholder{
-  font-family: "Inter", sans-serif;
+  font-family: var(--Inter), sans-serif;
   font-size: 16px;
 }
 .onboardingContainer{

@@ -8,6 +8,12 @@
   --textFooter: #E6E6E6;
   --faqPrimary: #ccc;
   --hamburger:#ffffffb7;
+  --font-body: var(--Belanosima);
+  --font-heading: var(--Montserrat);
+  --DMSans: var(--DMSans);
+  --Inter: var(--Inter);
+  --Poppins: var(--Poppins);
+  --Inter: var(--Inter);
 }
 ::-webkit-scrollbar{
   width: 0;
@@ -42,7 +48,7 @@ p{
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Belanosima", "Montserrat", sans-serif;
+  font-family: var(--font-body, --font-heading), sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -65,7 +71,7 @@ a {
 .btn{
   width: 100%;
   display: flex;
-  font-family: "Montserrat";
+  font-family: var(--font-heading);
   align-content: center;
   gap: 3%;
 }
@@ -96,7 +102,7 @@ a {
   height: max-content;
   justify-content: center;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: var(--Inter), sans-serif;
 }
 .pageHeader h1{
   font-weight: 700;
@@ -112,7 +118,7 @@ a {
   margin-bottom: 30px;
 }
 .aboutTitle{
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-heading), sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 100%;
@@ -125,7 +131,7 @@ a {
   margin-bottom: 22px;
 }
 .identityTxt h3{
-  font-family: Montserrat;
+  font-family: var(--font-heading);
   font-weight: 700;
   font-size: 25px;
   line-height: 100%;
@@ -135,7 +141,7 @@ a {
   width: 740px;
 }
 .aboutMainTxt{
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-heading), sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 115%;

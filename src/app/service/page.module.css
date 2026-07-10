@@ -4,7 +4,7 @@
     height: max-content;
     justify-content: center;
     text-align: center;
-    font-family: Montserrat;
+    font-family: var(--font-heading);
 }
 .serviceHeader h1{
     font-weight: 700;
@@ -17,7 +17,7 @@
     border-radius: 12px;
     padding: 30px;
     background: var(--bgSecondary);
-    font-family: Montserrat;
+    font-family: var(--font-heading);
     margin: 30px auto;
 }
 .serviceLeftContainer{
@@ -44,12 +44,12 @@
     justify-content: center;
 }
 .containerTxt h2{
-    font-family: Montserrat;
+    font-family: var(--font-heading);
     font-weight: 600;
     font-size: 40px;
 }
 .containerTxt p{
-    font-family: Montserrat;
+    font-family: var(--font-heading);
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
@@ -90,12 +90,12 @@
 
     }
     .containerTxt h2{
-        font-family: Montserrat;
+        font-family: var(--font-heading);
         font-weight: 600;
         font-size: 35px;
     }
     .containerTxt p{
-        font-family: Montserrat;
+        font-family: var(--font-heading);
         font-weight: 400;
         font-size: .9375rem;
     }

@@ -4,7 +4,7 @@
     height: max-content;
     justify-content: center;
     text-align: center;
-    font-family: Montserrat;
+    font-family: var(--font-heading);
 }
 .caseHeader h1{
     font-weight: 700;
@@ -40,7 +40,7 @@
 }
 .caseCardTxt{
     text-align: left;
-    font-family: "Montserrat";
+    font-family: "var(--font-heading)";
     display: flex;
     flex-direction: column;
     gap:1rem;
